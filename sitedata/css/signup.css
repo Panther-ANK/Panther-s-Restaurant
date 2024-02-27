@@ -103,11 +103,6 @@ body{
     font-size: 1.2rem;
 }
 
-#bttn a {
-    transition: all 0.4s;
-    background-color: transparent;
-}
-
 #bttn a:hover{
     transition: all 0.7s;
     background-color: var(--primary-hover-bg);
