@@ -154,7 +154,7 @@ nav ul li a:active {
 .menu-item:hover {
     transition: scale 0.5s;
     scale: 1.05;
-    border: 2px solid var(--primary-hover-bg);
+    /* border: 2px solid var(--primary-hover-bg); */
 }
 
 #menu-bttn {
