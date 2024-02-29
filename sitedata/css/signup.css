@@ -140,3 +140,9 @@ body{
 #login a:hover{
     text-decoration: underline 3px;
 }
+
+@media only screen and (max-width: 795px){
+    #login-box{
+        margin: 10px 150px;
+    }
+}

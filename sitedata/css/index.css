@@ -148,7 +148,7 @@ nav ul li a:active {
 }
 
 .menu-item{
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .menu-item:hover {
