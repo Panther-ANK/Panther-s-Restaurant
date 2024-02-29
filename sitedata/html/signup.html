@@ -3,31 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panther's Restaurant: Log In</title>
+    <title>Panther's Restaurant: Sign-Up</title>
     <script src="https://kit.fontawesome.com/e918134364.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="../css/signup.css">
 </head>
 <body>
     <div id="login-box">
-        <div id="login-heading">Log-In</div>
+        <div id="login-heading">Sign-Up</div>
         <div class="login-form">
-            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
-            <label for="email">
-                <i class="fa-solid fa-user login-icons"></i>
-            </label>
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
         </div>
         <div class="login-form">
+            <input type="text" name="address" id="address" placeholder="Address" required>
+            <input type="text" name="region" id="region" placeholder="Region" required>
+        </div>
+        <div class="login-form">
+            <input type="text" name="state" id="state" placeholder="State" required>
+            <input type="number" name="pin" id="pin" placeholder="Pin Code" required>
+        </div>
+        <div class="login-form">
+            <input type="password" name="e-or-p" id="e-or-p" placeholder="Email Or Phone" required>
             <input type="password" name="pass" id="pass" placeholder="Enter Your Password" required>
-            <label for="pass">
-                <i class="fa-solid fa-key login-icons"></i>
-            </label>
         </div>
         <div class="chkbox">
-            <input type="checkbox" name="chekbox" id="checkbox">
-            <label for="checkbox"> Remember Me</label>
+            <input type="checkbox" name="pp" id="pp">
+            <label for="pp">Accept our Privacy Policy</label>
+            <div class="tc">
+                <input type="checkbox" name="tc" id="tc">
+                <label for="tc">Accept our Terms and Conditions</label>
+            </div>
         </div>
-        <div id="bttn"><a href="homepage2.html">Submit</a></div>
-        <div id="sign-up">Don't have an account? <a href="">Sign-Up</a></div>
+        <div id="bttn"><a href="homepage2.html">Create Account</a></div>
+        <div id="login">Already have an account? <a href="login.html">Log-In</a></div>
     </div>
 </body>
 </html>
