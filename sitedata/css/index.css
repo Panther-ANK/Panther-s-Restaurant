@@ -22,8 +22,12 @@
 }
 
 #firstbg {
+    position: fixed;
+    z-index: -2;
+    width: 100%;
+    min-height: 100vh;
     background: var(--img1) no-repeat center center/cover;
-    height: 1099px;
+    /* height: 1099px; */
 }
 
 #bg2 {
@@ -62,7 +66,7 @@ header {
 /* Navigation Bar CSS */
 
 
-#firstbg nav {
+nav {
     padding: 10px 0px;
     background-color: var(--dark-bg);
 }
