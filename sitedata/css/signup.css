@@ -11,7 +11,7 @@
     --lighter-dark-bg: rgba(0, 0, 0, 0.439);
     --darker-bg: rgba(0, 0, 0, 0.77);
     --primary-font-color: rgb(255 71 71);
-    --primary-hover-bg: rgb(255 71 71);
+    --primary-hover-bg: #ec5b53;
     --primary-active-bg: rgb(128, 38, 38);
     --primary-placeholder-color: rgb(255, 255, 255);
     --primary-active-color: rgb(147, 147, 147);

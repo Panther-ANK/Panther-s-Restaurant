@@ -4,16 +4,21 @@
     padding: 0;
 }
 
+html{
+    transition: all 0.3s 1s;
+    opacity: 0.99;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
     --dark-bg: rgba(0, 0, 0, 0.6);
     --lighter-dark-bg: rgba(0, 0, 0, 0.439);
     --darker-bg: rgba(0, 0, 0, 0.77);
-    --primary-font-color: rgb(255 71 71);
-    --primary-hover-bg: rgb(255 71 71);
+    --primary-font-color: #ff4747;
+    --primary-hover-bg: #ec5b53;
     --primary-active-bg: rgb(128, 38, 38);
-    --primary-placeholder-color: rgb(255, 255, 255);
+    --primary-placeholder-color: #ffffff;
     --primary-active-color: rgb(147, 147, 147);
     --blur: blur(7px);
     --img1: url(https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
@@ -27,8 +32,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: var(--img3) no-repeat center center/cover;
-    /* background-color: green; */
+    /* background: var(--img3) no-repeat center center/cover; */
+    background: linear-gradient(65deg, var(--primary-active-color), tomato);
     font-family: 'Poppins', sans-serif;
 }
 #login-box{
@@ -39,6 +44,7 @@ body{
     backdrop-filter: var(--blur);
     border-radius: 50px 20px;
     padding: 27px 14px;
+    box-shadow: 8px 8px 20px 7px #000000d1;
 }
 
 #login-heading{
@@ -111,6 +117,7 @@ body{
 #bttn a:hover{
     transition: all 0.7s;
     background-color: var(--primary-hover-bg);
+    box-shadow: 0 0 20px var(--primary-hover-bg);
 }
 
 #bttn a:active{
