@@ -15,7 +15,7 @@ html{
     --dark-bg: rgba(0, 0, 0, 0.6);
     --lighter-dark-bg: rgba(0, 0, 0, 0.439);
     --darker-bg: rgba(0, 0, 0, 0.77);
-    --primary-font-color: #ff4747;
+    --primary-font-color: #ec5b53;
     --primary-hover-bg: #ec5b53;
     --primary-active-bg: rgb(128, 38, 38);
     --primary-placeholder-color: #ffffff;
@@ -32,8 +32,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background: var(--img3) no-repeat center center/cover; */
-    background: linear-gradient(65deg, var(--primary-active-color), tomato);
+    background: var(--img3) no-repeat center center/cover;
+    /* background: linear-gradient(65deg, var(--primary-active-color), #ec5b53); */
     font-family: 'Poppins', sans-serif;
 }
 #login-box{
@@ -139,4 +139,11 @@ body{
 
 #sign-up a:hover{
     text-decoration: underline 3px;
+}
+
+@media only screen and (max-width: 604px) {
+    .icons{
+        color: transparent;
+    }
+    
 }

@@ -25,7 +25,7 @@ html{
     --dark-bg: rgba(0, 0, 0, 0.6);
     --lighter-dark-bg: rgba(0, 0, 0, 0.50);
     --darker-bg: rgba(0, 0, 0, 0.77);
-    --primary-font-color: rgb(255 71 71);
+    --primary-font-color: #ec5b53;
     --primary-hover-bg: #ec5b53;
     --primary-active-bg: rgb(128, 38, 38);
     --primary-hover-color: rgb(255, 255, 255);
