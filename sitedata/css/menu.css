@@ -7,8 +7,31 @@ html{
     scroll-behavior: smooth;
 }
 
-@import url(contactus.css);
+::-webkit-scrollbar{
+    width: 15px;
+}
 
+::-webkit-scrollbar-track{
+    background-color: var(--darker-bg);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--primary-hover-bg);
+}
+
+@keyframes page-load {
+    from{
+        opacity: 0;
+        transform: rotate('-10deg');
+    }
+
+    to{
+        opacity: 1;
+        transform: rotate('0deg');
+    }
+}
+
+@import url(contactus.css);
 
 :root {
     --dark-bg: rgba(0, 0, 0, 0.6);
@@ -25,6 +48,7 @@ html{
     --img3: url(https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     --img4: url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     --poppins: 'Poppins', sans-serif;
+    --pageload: page-load 0.7s ease-out;
 }
 
 body{
@@ -118,7 +142,7 @@ nav ul li a:active {
 }
 
 .category-li{
-    transition: all 0.4s;
+    transition: all 0.7s;
     background: transparent;
     /* box-shadow: 0 0 0 transparent; */
 
@@ -133,7 +157,7 @@ nav ul li a:active {
 }
 
 .category-li:hover{
-    transition: all 0.4s 0.05s;
+    transition: all 0.7s;
     /* box-shadow: 0 0 20px black; */
     background: var(--primary-hover-bg);
     color: var(--primary-hover-color);

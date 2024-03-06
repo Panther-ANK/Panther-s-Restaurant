@@ -12,23 +12,26 @@
     
     <div id="login-box">
         <div id="login-heading">Log-In</div>
-        <div class="login-form">
-            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
-            <label for="email">
-                <i class="fa-solid fa-user login-icons icons"></i>
-            </label>
-        </div>
-        <div class="login-form">
-            <input type="password" name="pass" id="pass" placeholder="Enter Your Password" required>
-            <label for="pass">
-                <i class="fa-solid fa-key login-icons icons"></i>
-            </label>
-        </div>
-        <div class="chkbox">
-            <input type="checkbox" name="chekbox" id="checkbox">
-            <label for="checkbox"> Remember Me</label>
-        </div>
-        <div id="bttn"><a href="homepage2.html">Submit</a></div>
+        <form action="homepage2.html">
+            <div class="login-form">
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                <label for="email">
+                    <i class="fa-solid fa-user login-icons icons"></i>
+                </label>
+            </div>
+            <div class="login-form">
+                <input type="password" name="pass" id="pass" placeholder="Enter Your Password" required>
+                <label for="pass">
+                    <i class="fa-solid fa-key login-icons icons"></i>
+                </label>
+            </div>
+            <div class="chkbox">
+                <input type="checkbox" name="chekbox" id="checkbox">
+                <label for="checkbox"> Remember Me</label>
+            </div>
+            <!-- <div id="bttn"><a href="homepage2.html">Submit</a></div> -->
+            <button id="bttn" type="submit">Submit</button>
+        </form>
         <div id="sign-up">Don't have an account? <a href="signup.html">Sign-Up</a></div>
     </div>
 </body>

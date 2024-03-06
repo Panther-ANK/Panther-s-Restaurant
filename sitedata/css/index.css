@@ -5,6 +5,18 @@
     padding: 0;
 }
 
+@keyframes page-load {
+    from{
+        opacity: 0;
+        transform: rotate('-10deg');
+    }
+
+    to{
+        opacity: 1;
+        transform: rotate('0deg');
+    }
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -36,6 +48,7 @@ html{
     --img3: url(https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     --img4: url(https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     --poppins: 'Poppins', sans-serif;
+    --pageload: page-load 0.7s ease-out;
 }
 
 #firstbg {
@@ -63,6 +76,7 @@ html{
 
 header {
     font-size: 1.2rem;
+    animation: var(--pageload);
 }
 
 .head {
@@ -89,6 +103,7 @@ header {
 nav {
     padding: 10px 0px;
     background-color: var(--dark-bg);
+    animation: var(--pageload);
 }
 
 nav ul {
@@ -147,6 +162,7 @@ nav ul li a:active {
     height: 710px;
     backdrop-filter: var(--blur);
     box-shadow: 8px 2px 30px 10px var(--darker-bg);
+    animation: var(--pageload);
 }
 
 #menu-heading {
@@ -305,6 +321,7 @@ nav ul li a:active {
     backdrop-filter: var(--blur);
     box-shadow: 8px 2px 30px 10px var(--darker-bg);
     width: 500px;
+    animation: var(--pageload);
 }
 
 #contact-head {
@@ -477,3 +494,4 @@ nav ul li a:active {
         font-size: 1.05rem;
     }
 }
+
