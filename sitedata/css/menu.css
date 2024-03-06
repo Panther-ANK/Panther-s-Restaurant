@@ -53,19 +53,24 @@ html{
 
 body{
     font-family: var(--poppins);
+    height: 100vh;
+    overflow-y: hidden;
+    /* min-height: 500vh; */
 }
 
 #bg{
     position: fixed;
     z-index: -1;
     background: var(--primary-hover-color)  no-repeat center center/cover;
-    min-height: 100vh;
+    min-height: 500vh;
     width: 100%;
 }
 
 /* Navigation Bar CSS */
+
 nav {
-    position: sticky;
+    /* position: sticky; */
+    /* top: 0; */
     padding: 10px 0px;
     background-color: var(--dark-bg);
 }
@@ -145,7 +150,7 @@ nav ul li a:active {
     transition: all 0.7s;
     background: transparent;
     /* box-shadow: 0 0 0 transparent; */
-
+    
 }
 
 .category-li-name{
@@ -165,6 +170,9 @@ nav ul li a:active {
 
 #menu-body{
     background-color: blueviolet;
+    height: 100dvh;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 @media only screen and (max-width: 1320px){
