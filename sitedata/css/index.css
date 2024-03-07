@@ -8,12 +8,12 @@
 @keyframes page-load {
     from{
         opacity: 0;
-        transform: rotate('-10deg');
+        transform: translateY('100px');
     }
 
     to{
         opacity: 1;
-        transform: rotate('0deg');
+        transform: translateY('0');
     }
 }
 
