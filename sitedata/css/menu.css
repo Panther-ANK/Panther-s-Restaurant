@@ -111,6 +111,8 @@ body {
 .category-li {
     width: 25.4vw;
     height: 60px;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .category-li {
