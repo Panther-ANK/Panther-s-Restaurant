@@ -107,6 +107,7 @@ body{
 
 #checkbox{
     cursor: pointer;
+    scale: 1.2;
 }
 
 #bttn{
